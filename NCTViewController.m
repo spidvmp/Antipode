@@ -33,8 +33,26 @@
 #pragma mark - Antipode Calculator
 -(void)antipodeCalculator{
     
+    //here comes the tricky part, calculate the antipodes.They must have about 5 or 6 million web pages that tell you how to calculate the antipodes. It's a very difficult job to decide which choose. Don`t worry, this is the operation
+    //as the origin coordinates for the calculation we choose the coordinates of the center of the map. We use a variable of type CLLocationCoordinate2D
+    
+    //coordinate of the center of the map
+    CLLocationCoordinate2D origin = self.mapView.centerCoordinate;
+    
+    CLLocationCoordinate2D antipode;
+    if ( origin.longitude >= 0.0 )
+        antipode.longitude = (-1.0)*(180.0 - fabsf(origin.longitude));
+    else
+        antipode.longitude=(180.0 - fabsf(origin.longitude));
+    antipode.latitude = (-1.0) * origin.latitude;
+    
+    //and now, center map with new coordinates
+    [self.mapView setCenterCoordinate:antipode animated:NO];
     
     
+    
+    
+
 }
 
 - (void)didReceiveMemoryWarning {
