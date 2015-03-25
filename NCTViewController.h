@@ -9,6 +9,6 @@
 @import UIKit;
 @import MapKit;
 
-@interface NCTViewController : UIViewController
+@interface NCTViewController : UIViewController <MKMapViewDelegate>
 
 @end
