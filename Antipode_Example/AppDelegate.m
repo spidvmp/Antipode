@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "NCTViewController.h"
 
 @interface AppDelegate ()
 
@@ -19,6 +20,15 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    
+    //create the viewcontroller
+    NCTViewController *vc=[[NCTViewController alloc]initWithNibName:nil bundle:nil];
+    
+    //create the navigationController and put NCTViewController as root controller
+    UINavigationController *nav=[[UINavigationController alloc]initWithRootViewController:vc];
+    self.window.rootViewController=nav;
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

@@ -12,6 +12,8 @@
 		2B1BA2281AC33CB200B8E3AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B1BA2271AC33CB200B8E3AA /* Images.xcassets */; };
 		2B1BA22B1AC33CB200B8E3AA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B1BA2291AC33CB200B8E3AA /* LaunchScreen.xib */; };
 		2B1BA2371AC33CB200B8E3AA /* Antipode_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1BA2361AC33CB200B8E3AA /* Antipode_ExampleTests.m */; };
+		2B1BA2481AC33D3900B8E3AA /* NCTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1BA2461AC33D3900B8E3AA /* NCTViewController.m */; };
+		2B1BA2491AC33D3900B8E3AA /* NCTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B1BA2471AC33D3900B8E3AA /* NCTViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 		2B1BA2301AC33CB200B8E3AA /* Antipode_ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Antipode_ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B1BA2351AC33CB200B8E3AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B1BA2361AC33CB200B8E3AA /* Antipode_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Antipode_ExampleTests.m; sourceTree = "<group>"; };
+		2B1BA2451AC33D3900B8E3AA /* NCTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NCTViewController.h; path = ../NCTViewController.h; sourceTree = "<group>"; };
+		2B1BA2461AC33D3900B8E3AA /* NCTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NCTViewController.m; path = ../NCTViewController.m; sourceTree = "<group>"; };
+		2B1BA2471AC33D3900B8E3AA /* NCTViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NCTViewController.xib; path = ../NCTViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +83,9 @@
 			children = (
 				2B1BA2241AC33CB200B8E3AA /* AppDelegate.h */,
 				2B1BA2251AC33CB200B8E3AA /* AppDelegate.m */,
+				2B1BA2451AC33D3900B8E3AA /* NCTViewController.h */,
+				2B1BA2461AC33D3900B8E3AA /* NCTViewController.m */,
+				2B1BA2471AC33D3900B8E3AA /* NCTViewController.xib */,
 				2B1BA2271AC33CB200B8E3AA /* Images.xcassets */,
 				2B1BA2291AC33CB200B8E3AA /* LaunchScreen.xib */,
 				2B1BA2201AC33CB200B8E3AA /* Supporting Files */,
@@ -193,6 +201,7 @@
 			files = (
 				2B1BA22B1AC33CB200B8E3AA /* LaunchScreen.xib in Resources */,
 				2B1BA2281AC33CB200B8E3AA /* Images.xcassets in Resources */,
+				2B1BA2491AC33D3900B8E3AA /* NCTViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B1BA2261AC33CB200B8E3AA /* AppDelegate.m in Sources */,
+				2B1BA2481AC33D3900B8E3AA /* NCTViewController.m in Sources */,
 				2B1BA2231AC33CB200B8E3AA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
