@@ -8,7 +8,10 @@
 
 #import "NCTViewController.h"
 
+
 @interface NCTViewController ()
+
+@property (weak, nonatomic) IBOutlet MKMapView *mapView;
 
 @end
 

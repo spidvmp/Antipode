@@ -6,7 +6,8 @@
 //  Copyright (c) 2015 Nicatec Software. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
+@import MapKit;
 
 @interface NCTViewController : UIViewController
 

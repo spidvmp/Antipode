@@ -14,6 +14,7 @@
 		2B1BA2371AC33CB200B8E3AA /* Antipode_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1BA2361AC33CB200B8E3AA /* Antipode_ExampleTests.m */; };
 		2B1BA2481AC33D3900B8E3AA /* NCTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1BA2461AC33D3900B8E3AA /* NCTViewController.m */; };
 		2B1BA2491AC33D3900B8E3AA /* NCTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B1BA2471AC33D3900B8E3AA /* NCTViewController.xib */; };
+		2B1BA24B1AC3413000B8E3AA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1BA24A1AC3412F00B8E3AA /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		2B1BA2451AC33D3900B8E3AA /* NCTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NCTViewController.h; path = ../NCTViewController.h; sourceTree = "<group>"; };
 		2B1BA2461AC33D3900B8E3AA /* NCTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NCTViewController.m; path = ../NCTViewController.m; sourceTree = "<group>"; };
 		2B1BA2471AC33D3900B8E3AA /* NCTViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NCTViewController.xib; path = ../NCTViewController.xib; sourceTree = "<group>"; };
+		2B1BA24A1AC3412F00B8E3AA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B1BA24B1AC3413000B8E3AA /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		2B1BA2141AC33CB200B8E3AA = {
 			isa = PBXGroup;
 			children = (
+				2B1BA24A1AC3412F00B8E3AA /* MapKit.framework */,
 				2B1BA21F1AC33CB200B8E3AA /* Antipode_Example */,
 				2B1BA2331AC33CB200B8E3AA /* Antipode_ExampleTests */,
 				2B1BA21E1AC33CB200B8E3AA /* Products */,
