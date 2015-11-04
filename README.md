@@ -1,3 +1,3 @@
 #Antipode
 
-Map to see the **Antipodes**
+Map to see the **Antipodes** in IOS
